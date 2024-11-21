@@ -1,38 +1,55 @@
-.App {
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./imgs/boongbg1.png");
+  background-size: cover;
+}
+
+.title-img {
+  position: absolute; /* 화면에서 위치를 고정 */
+  top: 10px; /* 상단에서 10px 떨어짐 */
+  left: 10px; /* 왼쪽에서 10px 떨어짐 */
+  z-index: 10; /* 다른 요소 위에 표시 */
+}
+
+/* 전체 컨테이너 */
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 왼쪽: 시계/만트라, 오른쪽: 위젯 */
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+}
+
+/* 왼쪽 섹션 (시계 + 만트라) */
+.left-section {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* 오른쪽 섹션 (위젯) */
+.right-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* 반응형 디자인 */
+@media screen and (max-width: 768px) {
+  .app-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .right-section {
+    align-items: center;
+    width: 100%;
   }
 }
