@@ -7,8 +7,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("./imgs/boongbg1.png");
-  background-size: cover;
+  background-image: url("./imgs/boongbg2.png");
+  background-size: cover; /* 이미지를 화면 크기에 맞게 */
+  background-position: center center; /* 배경 이미지를 수평 및 수직 중앙에 정렬 */
+  background-repeat: no-repeat; /* 이미지 반복 방지 */
 }
 
 .title-img {
@@ -37,7 +39,11 @@ body {
 .right-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+}
+
+.right-bottom {
+  display: flex;
+  gap: 20px;
 }
 
 /* 반응형 디자인 */

@@ -5,6 +5,8 @@ import Mantra from "./components/Mantra";
 import TodoList from "./components/TodoList";
 import CustomCalendar from "./components/Calendar";
 import TitleImg from "./imgs/title_logo.png";
+import Memo from "./components/Memo";
+import Bookmarks from "./components/Bookmarks";
 
 function App() {
   return (
@@ -15,12 +17,16 @@ function App() {
         <div className="left-section">
           <Clock />
           <Mantra />
+          <Bookmarks />
         </div>
 
         {/* Widgets Section */}
         <div className="right-section">
           <TodoList />
-          <CustomCalendar />
+          <div className="right-bottom">
+            <CustomCalendar />
+            <Memo />
+          </div>
         </div>
       </div>
     </body>

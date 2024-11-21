@@ -1,0 +1,51 @@
+/* 북마크 위젯 스타일 */
+.bookmarks-widget {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bookmarks-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.bookmarks-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto; /* 스크롤 추가 */
+}
+
+.bookmark-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bookmark-item:last-child {
+  margin-bottom: 0;
+}
+
+.bookmark-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.bookmark-item a {
+  text-decoration: none;
+  color: #007aff;
+  font-size: 14px;
+}
+
+.bookmark-item a:hover {
+  text-decoration: underline;
+}
