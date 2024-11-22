@@ -10,7 +10,7 @@ import Bookmarks from "./components/Bookmarks";
 
 function App() {
   return (
-    <body>
+    <div>
       <img src={TitleImg} alt="boong title img" className="title-img" width="200px" />
       <div className="app-container">
         {/* Clock and Mantra Section */}
@@ -29,7 +29,7 @@ function App() {
           </div>
         </div>
       </div>
-    </body>
+    </div>
   );
 }
 

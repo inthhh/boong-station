@@ -44,12 +44,13 @@
 }
 
 .react-calendar__tile--active {
-  background: #a01c32;
   color: white;
+  outline: none;
 }
 
 .react-calendar__tile--now {
   background: #a01c32;
+  color: white;
   border-radius: 8px;
 }
 
@@ -60,4 +61,8 @@
   border: none;
   background: transparent;
   cursor: pointer;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #ccc; /* 현재 달이 아닌 날짜를 더 연하게 */
 }

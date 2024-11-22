@@ -1,13 +1,31 @@
 /* App.css */
+
+@font-face {
+  font-family: "Gyeonggi_Batang_Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Batang_Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* 스크롤로 인한 겹침 방지 */
+  background: none !important; /* 기본 배경 제거 */
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Gyeonggi_Batang_Regular", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("./imgs/boongbg2.png");
+  background-color: #1e222a;
+  background-image: url("./imgs/boongbg3.png");
   background-size: cover; /* 이미지를 화면 크기에 맞게 */
   background-position: center center; /* 배경 이미지를 수평 및 수직 중앙에 정렬 */
   background-repeat: no-repeat; /* 이미지 반복 방지 */

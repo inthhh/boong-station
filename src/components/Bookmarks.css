@@ -1,51 +1,80 @@
-/* 북마크 위젯 스타일 */
+/* Bookmarks 위젯 스타일 */
 .bookmarks-widget {
-  margin-top: 20px;
-  background: rgba(255, 255, 255, 0.8);
+  margin-top: 40px;
+  background: rgba(0, 0, 0, 0.6); /* 검은색 배경 */
   backdrop-filter: blur(10px);
   border-radius: 15px;
   padding: 15px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 8px rgba(61, 61, 61, 0.04);
+  color: white; /* 텍스트 색상을 흰색으로 변경 */
+  text-align: center; /* 중앙 정렬 */
+  max-height: 40%;
 }
 
+/* 제목 스타일 */
 .bookmarks-title {
-  margin: 0 0 10px;
+  margin: 0 0 14px;
   font-size: 18px;
   font-weight: bold;
-  color: #333;
-  text-align: center;
+  color: white; /* 제목도 흰색 */
 }
 
+/* 북마크 리스트 스타일 */
 .bookmarks-list {
   list-style: none;
   padding: 0;
-  margin: 0;
-  max-height: 200px;
+  margin: 0 auto; /* 가운데 정렬 */
+  display: grid;
+  height: 300px;
+  max-height: 100%;
   overflow-y: auto; /* 스크롤 추가 */
+  grid-template-columns: repeat(2, 1fr); /* 2열 배치 */
+  gap: 12px; /* 항목 간 간격 */
 }
 
+/* 북마크 항목 스타일 */
 .bookmark-item {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  gap: 10px;
+  justify-content: flex-start;
 }
 
-.bookmark-item:last-child {
-  margin-bottom: 0;
-}
-
+/* 북마크 아이콘 */
 .bookmark-icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
+  width: 18px;
+  height: 18px;
 }
 
+/* 북마크 링크 */
 .bookmark-item a {
   text-decoration: none;
-  color: #007aff;
-  font-size: 14px;
+  color: #dbdbdb;
+  font-size: 12px;
+  text-align: left; /* 텍스트를 왼쪽 정렬 */
+  word-wrap: break-word; /* 긴 텍스트를 줄바꿈 */
+  overflow-wrap: break-word;
+  line-height: 1.2; /* 줄 간격 설정 */
 }
 
 .bookmark-item a:hover {
   text-decoration: underline;
+}
+
+.bookmarks-list::-webkit-scrollbar {
+  margin-left: 4px;
+  width: 6px; /* 스크롤바 너비 */
+}
+
+.bookmarks-list::-webkit-scrollbar-thumb {
+  background-color: #434343; /* 스크롤바 색상 */
+  border-radius: 4px; /* 스크롤바 둥글게 */
+}
+
+.bookmarks-list::-webkit-scrollbar-thumb:hover {
+  background-color: #777; /* 마우스 오버 시 스크롤바 색상 */
+}
+
+.bookmarks-list::-webkit-scrollbar-track {
+  background-color: #222; /* 스크롤바 트랙(배경) 색상 */
 }
