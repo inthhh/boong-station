@@ -7,6 +7,7 @@ import CustomCalendar from "./components/Calendar";
 import TitleImg from "./imgs/title_logo.png";
 import Memo from "./components/Memo";
 import Bookmarks from "./components/Bookmarks";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
