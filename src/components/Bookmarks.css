@@ -78,3 +78,28 @@
 .bookmarks-list::-webkit-scrollbar-track {
   background-color: #222; /* 스크롤바 트랙(배경) 색상 */
 }
+
+.bookmark-item:hover {
+  background-color: #222;
+}
+
+.bookmark-item:active {
+  cursor: grabbing;
+}
+
+.delete-button {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #6c6c6c;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  text-decoration: underline;
+}
+
+.drag-hover {
+  background-color: #7b7b7b; /* 밝은 파란색으로 호버 강조 */
+  border-top: 2px dashed #a85576; /* 드래그 중 강조 표시 */
+}

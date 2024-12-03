@@ -35,7 +35,7 @@ function TodoList() {
   };
 
   return (
-    <div className="widget todo-widget">
+    <div className="widget todo-widget" style={{ width: "calc(100% - 40px)" }}>
       <h3 className="widget-title">To Do List</h3>
       <div className="todo-input-container">
         <input
@@ -43,6 +43,12 @@ function TodoList() {
           placeholder="Add a new task..."
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              e.preventDefault(); // 기본 동작 방지
+              handleAddTask();
+            }
+          }}
           className="todo-input"
         />
         <button onClick={handleAddTask} className="todo-add-button">

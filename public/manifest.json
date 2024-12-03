@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "붕어빵 스테이션",
+  "name": "붕어빵 스테이션 - Chrome Dashboard",
   "version": "1.0",
-  "description": "투두리스트, 일정 관리, 메모와 시계를 포함한 생산성 대시보드",
+  "description": "당신의 크롬 시작 화면을 귀엽게! Bookmarks, todoList, Clock을 포함한 생산성 대시보드",
   "icons": {
     "16": "boong16.png",
     "32": "boong32.png",
@@ -12,6 +12,6 @@
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "permissions": ["storage", "bookmarks"],
+  "permissions": ["bookmarks"],
   "host_permissions": ["<all_urls>"]
 }
