@@ -9,6 +9,7 @@
   color: white; /* 텍스트 색상을 흰색으로 변경 */
   text-align: center; /* 중앙 정렬 */
   max-height: 40%;
+  max-width: 600px;
 }
 
 /* 제목 스타일 */
@@ -38,6 +39,7 @@
   align-items: center;
   gap: 10px;
   justify-content: flex-start;
+  height: auto;
 }
 
 /* 북마크 아이콘 */
