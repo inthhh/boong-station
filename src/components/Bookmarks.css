@@ -8,7 +8,7 @@
   box-shadow: 0px 4px 8px rgba(61, 61, 61, 0.04);
   color: white; /* 텍스트 색상을 흰색으로 변경 */
   text-align: center; /* 중앙 정렬 */
-  max-height: 40%;
+  max-height: 400px;
   max-width: 600px;
 }
 
@@ -26,8 +26,8 @@
   padding: 0;
   margin: 0 auto; /* 가운데 정렬 */
   display: grid;
-  height: auto;
-  max-height: 100%;
+  height: 370px;
+  /* max-height: 100%; */
   overflow-y: auto; /* 스크롤 추가 */
   grid-template-columns: repeat(2, 1fr); /* 2열 배치 */
   gap: 12px; /* 항목 간 간격 */
