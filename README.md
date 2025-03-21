@@ -1,9 +1,14 @@
-# boong-station
+# boong-station 🥐
 
-### 크롬 확장 프로그램 - 붕어빵 스테이션 제작기
+### 📍 크롬 확장 프로그램 - 붕어빵 스테이션 제작기
+
+- 크롬 웹스토어 : https://chromewebstore.google.com/detail/%EB%B6%95%EC%96%B4%EB%B9%B5-%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98-chrome-dashboard/ecpkcgdaahhpdlanhdobigdkadgmedna
 
 1. 대학생이 개발한 크롬 브라우저 시작 화면 대시보드 프로그램입니다.
 2. 부족한 점이 많지만 개선해나가겠습니다!
 3. 연락 및 후원은 glass005533@gmail.com으로 부탁드립니다.
+
+![image](https://github.com/user-attachments/assets/3db0cad9-c21e-4529-9312-ea0e69c8ad95)
+
 
 감사합니다.
