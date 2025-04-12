@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "./Footer.css";
+import "./styles/Footer.css";
 import emailjs from "emailjs-com";
 import "react-toastify/dist/ReactToastify.css";
 import { toast, ToastContainer } from "react-toastify";

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "붕어빵 스테이션 - Chrome Dashboard",
-  "version": "1.3",
-  "description": "당신의 크롬 시작 화면을 귀엽게! Bookmarks, todoList, Clock을 포함한 생산성 대시보드",
+  "version": "1.4.0",
+  "description": "당신의 크롬 시작 화면을 아름답게! Bookmarks, todoList, Clock을 포함한 생산성 대시보드",
   "icons": {
     "16": "boong16.png",
     "32": "boong32.png",

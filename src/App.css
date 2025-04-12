@@ -22,8 +22,8 @@ body {
   font-family: "Gyeonggi_Batang_Regular", sans-serif;
   height: 100%;
   background-color: #1e222a;
-  background-image: url("./imgs/boongbg3.png");
-  background-size: contain; /* 이미지를 높이에 맞추고 */
+  background-image: url("./imgs/spring.webp");
+  background-size: cover; /* 이미지를 높이에 맞추고 */
   background-position: center center; /* 배경 이미지를 수평 및 수직 중앙에 정렬 */
   background-repeat: no-repeat; /* 이미지 반복 방지 */
   display: flex;

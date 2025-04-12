@@ -14,7 +14,7 @@
 }
 
 .btn:hover {
-  background-color: #a04559;
+  background-color: rgb(146, 71, 101);
 }
 
 /* 팝업 스타일 */
@@ -65,14 +65,14 @@
   padding: 8px 16px;
   font-size: 14px;
   color: white;
-  background-color: #b44f67;
+  background-color: rgb(146, 71, 101);
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .popup-buttons button:hover {
-  background-color: #94394e;
+  background-color: rgb(146, 71, 101);
 }
 
 .form {

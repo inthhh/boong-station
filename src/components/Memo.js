@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Memo.css";
+import "./styles/Memo.css";
 
 function Memo() {
   const [memoText, setMemoText] = useState("");

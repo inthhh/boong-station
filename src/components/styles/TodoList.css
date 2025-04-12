@@ -34,7 +34,7 @@
 
 .todo-add-button {
   margin-left: 10px;
-  background-color: #a01c32;
+  background-color: rgb(146, 71, 101);
   color: white;
   border: none;
   border-radius: 10px;
@@ -44,7 +44,7 @@
 }
 
 .todo-add-button:hover {
-  background-color: #a01c32;
+  background-color: rgb(146, 71, 101);
 }
 
 .todo-list {
