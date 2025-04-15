@@ -11,8 +11,9 @@
 ![image](https://github.com/user-attachments/assets/3db0cad9-c21e-4529-9312-ea0e69c8ad95)
 
 <br>
-- 2024.04.12 : 1.4.0 봄 버전 업데이트<br>
+- 2024.04.15 : 1.4.0 봄 버전 업데이트<br>
 
-![image](https://github.com/user-attachments/assets/83f5ea21-45f7-4cec-8bd8-51abf3a192f4)
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/02208a05-b4d9-487c-9de3-019a2ba38a80" />
+
 
 감사합니다.
