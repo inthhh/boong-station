@@ -29,7 +29,8 @@
   height: 370px;
   /* max-height: 100%; */
   overflow-y: auto; /* 스크롤 추가 */
-  grid-template-columns: repeat(2, 1fr); /* 2열 배치 */
+  overflow-x: hidden;
+  grid-template-columns: repeat(2, 48.5%); /* 2열 배치 */
   gap: 12px; /* 항목 간 간격 */
 }
 
